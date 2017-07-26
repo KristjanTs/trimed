@@ -1,0 +1,59 @@
+h1 {
+  color:blue;
+}
+
+.navbar-default {
+  background-color: #ffffff;
+  border-color:#741b47;
+  color: #741b47;
+  height: 80px;
+}
+
+.navbar-default .navbar-brand {
+  color: #741b47;
+  height: 80px;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #1d5cc1;
+  background-color: transparent;
+  height: 80px;
+}
+
+.navbar-default .navbar-nav > li > a,
+.navbar-brand {
+  color: #741b47;
+  padding-top: 0;
+  padding-bottom: 0;
+  line-height: 80px;
+  -webkit-transition: background-color 0.4s ease-out;
+  -moz-transition: background-color 0.4s ease-out;
+  -o-transition: background-color 0.4s ease-out;
+  transition: background-color 0.4s ease-out;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color:#FFFFFF;
+  background-color: #741b47;
+  height: 80px;
+  font-weight: bold;
+}
+
+.navbar-default .navbar-nav > li >a:hover,
+.navbar-default .navbar-nav > li >a:focus {
+  color: #FFFFFF;
+  background-color: #741b47;
+  height: 80px;
+}
+
+#lang {
+  font-size: 12px;
+}
+
+#activeLang {
+  background-color: #741b47;
+  margin: 5px;
+}
